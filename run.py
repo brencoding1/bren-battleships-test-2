@@ -26,7 +26,7 @@ print("      This time, you get to decide the size of the battlefield.")
 print("  After every input you type into the game, press enter to continue.")
 print("--------------------------------------------------------------------")
 while True:
-    BOARD_SIZE = input(" Enter board size: ")
+    BOARD_SIZE = input(" Enter board size:\n")
     if BOARD_SIZE.isdigit():
         BOARD_SIZE = int(BOARD_SIZE)
         if BOARD_SIZE > 1 and BOARD_SIZE <= 10:
